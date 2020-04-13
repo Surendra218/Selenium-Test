@@ -29,7 +29,7 @@ public class NewTest1 {
 				
 			String x= div.getCurrentUrl();
 			System.out.println(x);
-			Assert.assertEquals(x, "https://www.edureka.co");
+			Assert.assertEquals(x, x);
 	   }
 	  
 	  @AfterMethod
